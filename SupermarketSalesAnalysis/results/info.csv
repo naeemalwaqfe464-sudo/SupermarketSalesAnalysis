@@ -1,0 +1,18 @@
+column,dtype
+Invoice ID,object
+Branch,object
+City,object
+Customer type,object
+Gender,object
+Product line,object
+Unit price,float64
+Quantity,int64
+Tax 5%,float64
+Sales,float64
+Date,object
+Time,object
+Payment,object
+cogs,float64
+gross margin percentage,float64
+gross income,float64
+Rating,float64
