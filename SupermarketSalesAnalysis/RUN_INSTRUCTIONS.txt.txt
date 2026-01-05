@@ -1,0 +1,75 @@
+Supermarket Sales Analysis
+Run Instructions (For Students)
+
+--------------------------------
+1) Project Folder Structure
+--------------------------------
+The project files must be arranged as follows:
+
+SupermarketSalesAnalysis/
+│
+├── data/
+│   └── supermarket_sales.csv
+│
+├── code/
+│   ├── analysis.py
+│   └── Supermarket_Sales_Analysis.ipynb
+│
+├── results/
+│   ├── charts/
+│   ├── tables/
+│   ├── head.csv
+│   ├── info.csv
+│   ├── describe.csv
+│   └── advanced_answers.txt
+│
+└── README.md
+
+
+--------------------------------
+2) Requirements
+--------------------------------
+Make sure Python is installed on your computer.
+
+Required libraries:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
+If not installed, run:
+pip install pandas numpy matplotlib seaborn
+
+
+--------------------------------
+3) How to Run the Project
+--------------------------------
+1. Open Command Prompt (CMD) or Terminal
+2. Go to the project folder:
+   cd SupermarketSalesAnalysis
+3. Run the Python script:
+   python code/analysis.py
+
+
+--------------------------------
+4) Output Files
+--------------------------------
+After running the script, the results will be saved automatically in the "results" folder:
+
+- charts/ : all generated graphs (PNG)
+- tables/ : CSV summary tables
+- advanced_answers.txt : final answers for analysis questions
+- head.csv, info.csv, describe.csv : data inspection files
+
+
+--------------------------------
+5) Notes
+--------------------------------
+- The dataset file must be named exactly:
+  supermarket_sales.csv
+- The dataset must be placed inside the "data" folder.
+- No manual changes are required after running the code.
+
+--------------------------------
+End of Instructions
+--------------------------------
